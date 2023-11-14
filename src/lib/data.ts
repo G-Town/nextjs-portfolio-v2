@@ -35,26 +35,26 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graduated, BS",
+    location: "Madison, WI",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated after 5 years of study through the School of Engineering with double major in Nuclear Engineering and Computer Science.",
     icon: React.createElement(LuGraduationCap),
     date: "2019",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Software Developer, Data Analyst",
+    location: "Chicago, IL",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked at a startup LLC called HyperWave where my role was to develop computational fluid dynamics software for the purpose of modeling a given product. I also assessed data output to inform our design process.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2020 - 2021",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Data Science, Software Development Bootcamps",
+    location: "Chicago, IL",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I graduated from 3 bootcamps offered by The University of Michigan, The University of Washington, and Hong Kong University of Technology, earning certificates in Data Science with Python, Machine Learning, and Web Development with React, respectively.",
     icon: React.createElement(FaReact),
     date: "2021 - present",
   },

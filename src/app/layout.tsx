@@ -24,16 +24,32 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           relative pt-28`}
       >
         <div
-          className="bg-[#fbe2e3] absolute top-[-6rem] -z-10 right-[11rem]
-            h-[31.25rem] w-[31.25rem] rounded-full
-            blur-[10rem] sm:w-[68.75rem] 
-            dark:bg-[#946263]"
+          className="bg-[#f1cdce] absolute top-[-6rem] -z-10 right-[0rem]
+            h-[35rem] w-[45rem] rounded-full
+            blur-[7.5rem] sm:w-[68.75rem] 
+            dark:bg-[#7c5c5db7]"
         ></div>
         <div
-          className="bg-[#dbd7fb] absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full
-            blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] 
-            dark:bg-[#676394]"
+          className="bg-[#c2bcef] absolute top-[3rem] -z-10 left-[-35rem]
+            h-[40rem] w-[30rem] rounded-full
+            blur-[7.5rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] 
+            dark:bg-[#52517db7]"
         ></div>
+        <div
+          className="bg-[#f7dfb596] absolute bottom-[125rem] -z-10 right-[0rem]
+            h-[70rem] w-[35rem] rounded-full
+            blur-[10rem]
+            dark:bg-[#7e6d4a48]"
+        ></div>
+        <div
+          className="bg-[#b6f9f2b5] absolute bottom-[50rem] -z-10 left-[-25rem]
+            h-[50rem] w-[50rem] rounded-full
+            blur-[10rem]
+            dark:bg-[#2e47386b]"
+        ></div>
+        <div className="main">
+          <div className="gradient"></div>
+        </div>
         <ThemeContextProvider>
           <ActiveSectionContextProvider>
             <Header />
