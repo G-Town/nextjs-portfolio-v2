@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/../public/corpcomment.png";
-import rmtdevImg from "@/../public/rmtdev.png";
-import wordanalyticsImg from "@/../public/wordanalytics.png";
+import bedImg from "@/../public/bed_example.png";
+import blogImg from "@/../public/blog.png";
+import sumzImg from "@/../public/sumz.png";
 
 export const links = [
   {
@@ -50,6 +50,14 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "2020 - 2021",
   },
+  // {
+  //   title: "Independant Content Creation",
+  //   location: "Chicago, IL",
+  //   description:
+  //     "",
+  //   icon: React.createElement(FaReact),
+  //   date: "2020 - present",
+  // },
   {
     title: "Data Science, Software Development Bootcamps",
     location: "Chicago, IL",
@@ -58,50 +66,59 @@ export const experiencesData = [
     icon: React.createElement(FaReact),
     date: "2021 - present",
   },
+  {
+    title: "Freelance Web Dev, Data Analyst",
+    location: "Chicago, IL",
+    description:
+      "Freelancing contracts for web/software development through services like Upwork.",
+    icon: React.createElement(FaReact),
+    date: "2023 - present",
+  },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Fluidized Bed",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I worked for a year as a Developer and Data Analyst at a startup. Our mission was the creation of new products and devices through design and modeling using the principles of fluid dynamics in computational simulation models.",
+    tags: ["FORTRAN", "Matlab", "GNU Compiler"],
+    imageUrl: bedImg,
   },
   {
-    title: "rmtDev",
+    title: "blog",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "I developed a full stack blog as a web application using a NextJS Node Mongo Prisma stack in Typescript. Fully functioning, up for display while I fill it with content.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "MongoDB"],
+    imageUrl: blogImg,
   },
   {
-    title: "Word Analytics",
+    title: "GPT Summarizer Web App",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "I created a web app connected to a LLM api that summarizeds a users submitted article in a specified amount of paragraphs",
+    tags: ["React", "Redux", "Vite", "Tailwind", "Framer"],
+    imageUrl: sumzImg,
   },
 ] as const;
 
-export const skillsData = [
+export const devSkillsData = [
   "HTML",
   "CSS",
   "JavaScript",
   "TypeScript",
   "React",
-  "Next.js",
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
-  "PostgreSQL",
-  "Python",
+  "REST API",
   "Django",
-  "Framer Motion",
+  "Python",
+  "Pandas",
+  "Matplotlib",
+  "Julia",
+  "ScikitLearn",
 ] as const;
+
+export const engSkillsData = ["Modeling", "CAD", "Mechanics", "Heat Transfer", "Fluid Dynamics"] as const;

@@ -24,29 +24,29 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           relative pt-28`}
       >
         <div
-          className="bg-[#f1cdce] absolute top-[-6rem] -z-10 right-[0rem]
+          className="bg-[#eececf] absolute top-[-6rem] -z-10 right-[0rem]
             h-[35rem] w-[45rem] rounded-full
             blur-[7.5rem] sm:w-[68.75rem] 
             dark:bg-[#7c5c5db7]"
         ></div>
         <div
-          className="bg-[#c2bcef] absolute top-[3rem] -z-10 left-[-35rem]
+          className="bg-[#cac9d8] absolute top-[3rem] -z-10 left-[-35rem]
             h-[40rem] w-[30rem] rounded-full
             blur-[7.5rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] 
             dark:bg-[#52517db7]"
         ></div>
-        <div
-          className="bg-[#f7dfb596] absolute bottom-[125rem] -z-10 right-[0rem]
+        {/* <div
+          className="bg-[#e6d9c496] absolute bottom-[125rem] -z-10 right-[0rem]
             h-[70rem] w-[35rem] rounded-full
             blur-[10rem]
             dark:bg-[#7e6d4a48]"
-        ></div>
-        <div
-          className="bg-[#b6f9f2b5] absolute bottom-[50rem] -z-10 left-[-25rem]
+        ></div> */}
+        {/* <div
+          className="bg-[#c6eeeab5] absolute bottom-[50rem] -z-10 left-[-25rem]
             h-[50rem] w-[50rem] rounded-full
             blur-[10rem]
             dark:bg-[#2e47386b]"
-        ></div>
+        ></div> */}
         <div className="main">
           <div className="gradient"></div>
         </div>

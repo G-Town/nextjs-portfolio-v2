@@ -67,5 +67,5 @@ html.dark {
   height: 100%;
   filter: blur(200px) saturate(150%);
   top: 80px;
-  opacity: 0.5;
+  opacity: 0.2;
 }
