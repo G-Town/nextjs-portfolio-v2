@@ -36,8 +36,7 @@ export default function About() {
       </p>
 
       <p>
-        <span className="italic">When I&apos;m not coding</span>, I enjoy watching movies, I walk and have fun with my 
-        dog, and I learn and hone new recipes in the kitchen. I am a musician and a student of history.
+        <span className="italic">When I&apos;m not coding</span>, I enjoy watching movies, I get creative with my guitar, and I learn and hone new recipes in the kitchen. I am a musician and a student of history.
         <span className="font-medium"> I am constantly learning.</span> I devoutly seek to know more about anything that inspires and moves people, and everything that drives 
         change in the world. This is what motivates me and is the reason I sought to become a software developer in the 
         tech spaces that are changing the world.

@@ -59,7 +59,7 @@ export const experiencesData = [
   //   date: "2020 - present",
   // },
   {
-    title: "Data Science, Software Development Bootcamps",
+    title: "Data Science, Software Development Certifications",
     location: "Chicago, IL",
     description:
       "I graduated from 3 bootcamps offered by The University of Michigan, The University of Washington, and Hong Kong University of Technology, earning certificates in Data Science with Python, Machine Learning, and Web Development with React, respectively.",
