@@ -35,10 +35,10 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated, BS",
-    location: "Madison, WI",
+    title: "Graduated, B.S.",
+    location: "University of Wisconsin - Madison",
     description:
-      "I graduated after 5 years of study through the School of Engineering with double major in Nuclear Engineering and Computer Science.",
+      "I graduated with 196 credit hours through the Department of Engineering Physics with double major in Nuclear Engineering and Computer Science.",
     icon: React.createElement(LuGraduationCap),
     date: "2019",
   },
@@ -64,7 +64,7 @@ export const experiencesData = [
     description:
       "I graduated from 3 bootcamps offered by The University of Michigan, The University of Washington, and Hong Kong University of Technology, earning certificates in Data Science with Python, Machine Learning, and Web Development with React, respectively.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2022 - present",
   },
   {
     title: "Freelance Web Dev, Data Analyst",
@@ -80,21 +80,21 @@ export const projectsData = [
   {
     title: "Fluidized Bed",
     description:
-      "I worked for a year as a Developer and Data Analyst at a startup. Our mission was the creation of new products and devices through design and modeling using the principles of fluid dynamics in computational simulation models.",
+      "I applied Computational Fluid Dynamics through FORTRAN to model a fluidized bed of solids for various air treatment applications.",
     tags: ["FORTRAN", "Matlab", "GNU Compiler"],
     imageUrl: bedImg,
   },
   {
     title: "blog",
     description:
-      "I developed a full stack blog as a web application using a NextJS Node Mongo Prisma stack in Typescript. Fully functioning, up for display while I fill it with content.",
+      "Full stack blog web application using a NextJS Node Mongo Prisma stack in Typescript. Fully functioning, up for display while I fill it with content.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "MongoDB"],
     imageUrl: blogImg,
   },
   {
     title: "GPT Summarizer Web App",
     description:
-      "I created a web app connected to a LLM api that summarizeds a users submitted article in a specified amount of paragraphs",
+      "I created a web app connected to a LLM api that summarizes user-submitted article in a specified number of paragraphs",
     tags: ["React", "Redux", "Vite", "Tailwind", "Framer"],
     imageUrl: sumzImg,
   },
